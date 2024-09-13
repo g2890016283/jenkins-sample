@@ -1,4 +1,4 @@
-FROM golang:1.10.4-alpine
+FROM registry.baidubce.com/public/golang:1.20.2
 
 ADD . /go/src/app
 
